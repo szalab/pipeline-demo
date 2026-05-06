@@ -1,0 +1,42 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Build results
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+
+# DotNet artifacts
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Publish output
+publish/
+
+# Secrets / local config
+appsettings.*.json
